@@ -93,12 +93,65 @@ body{
 
 
 }
+.bicicleteria{
+    background-image: url("../imagenes/biciicleteria.png");
+    height: 332px;
+    width: 380px;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+    position: relative;
+    /* <img   height="332" width="380" position="center" class="button-proyec"> */
+}
 .rigth{
     float: right;
     width: 33.3%;
     height: 95%;
 
 
+
+}
+
+.botones-enlace{
+    /* background-color: red; */
+    width: 1248px;
+    float:inline-end;
+
+    margin-right: 50px;
+    scroll-behavior: auto;
+    height: 30px;
+    /* margin-top: 300px; */
+}
+.button-bicicleteria{
+    cursor: pointer;
+
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 13%;
+
+}
+.button-apidogs{
+    cursor: pointer;
+
+    margin-top: 5px;
+
+    float: left;
+
+    width: 20%;
+    margin-left: 6%;
+
+}
+.button-encriptador{
+    cursor: pointer;
+
+    margin-top: 5px;
+
+    float: right;
+
+    width: 20%;
+    margin-right:6%;
 
 }
 
