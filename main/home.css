@@ -116,11 +116,13 @@ body{
 
 .botones-enlace{
     /* background-color: red; */
-    width: 1248px;
+    width: 60%;
+    float: right;
+
     float:inline-end;
 
-    margin-right: 50px;
-    scroll-behavior: auto;
+    margin-left: 50px;
+    /* scroll-behavior: auto; */
     height: 30px;
     /* margin-top: 300px; */
 }
@@ -150,7 +152,7 @@ body{
 
     float: right;
 
-    width: 20%;
+    width: 200%;
     margin-right:6%;
 
 }
