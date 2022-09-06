@@ -47,6 +47,9 @@ body{
     text-align: center;
     font-size: 18px;
 }
+.proyecto-skills{
+    background-color: red;
+}
 .Skill-conteiner{
     margin-left: 50px;
     background-color: rgba(240, 248, 255, 0.339);

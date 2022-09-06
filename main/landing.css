@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+body{
+    /* background: linear-gradient(rgb(113, 113, 130),rgb(182, 182, 208),rgb(113, 113, 130)); */
+   background-image: url("../imagenes/pexels-pavel-danilyuk-5496464.jpg" );
+   background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+    position: relative;
+   height: 800px;
+
+}
+
+.conteiner-name{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+.title1{
+    text-align: center;
+    margin-top: 30%;
+ color: aliceblue;
+ font-size: 45px;
+}
+.title1:hover{
+    color: red;
+
+}
+.container-conoceme{
+    margin-left: 42%;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    /* margin: auto; */
+
+
+}
+.conoceme{
+    height: 100px;
+    /* background-color: red; */
+}
+.title2{
+    /* margin-top: 25px; */
+    color: white;
+}
+.container-git-lin{
+    margin-top: 25px;
+    /* width: 200px; */
+    height: 200px;
+    /* background-color: green; */
+}
+.btn-link{ 
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    width: 200px;
+ height: 100px;   
+ border-radius: 3px 3px 3px 35px;
+ /* margin-left: 165px; */
+}
+.btn-link:hover{
+    scale: 1.1;
+    box-shadow: 0px 0px 20px 2px  red;
+    color: red;
+    border-color: red;
+}
+.btn-link-2{
+    margin-top: 5px;
+    margin-left: 50px;
+    height: 30px;
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+}
+.btn-link-2:hover{
+    scale: 1.1;
+    box-shadow: 0px 0px 20px 2px  red;
+    color: red;
+    border-color: red;
+}
