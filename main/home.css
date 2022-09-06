@@ -93,6 +93,28 @@ body{
 
 
 }
+.encriptador{
+    background-image: url("../imagenes/encriptadorr.png");
+    height: 332px;
+    width: 380px;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+    position: relative;
+}
+.Api-dogs{
+    background-image: url("../imagenes/pidogs.png");
+    height: 332px;
+    width: 380px;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+    position: relative;
+}
 .bicicleteria{
     background-image: url("../imagenes/biciicleteria.png");
     height: 332px;
@@ -116,12 +138,12 @@ body{
 
 .botones-enlace{
     /* background-color: red; */
-    width: 60%;
+    width: 65%;
     float: right;
 
     float:inline-end;
 
-    margin-left: 50px;
+    margin-right: 50px;
     /* scroll-behavior: auto; */
     height: 50px;
     /* margin-top: 300px; */
@@ -130,11 +152,13 @@ body{
     background: rgba(240, 248, 255, 0.371);
     float: left;
     cursor: pointer;
-
+    text-align: center;
+    
     width: 20%;
     height: 20px;
     /* margin-top: 5px; */
-    margin-left: 13%;
+    margin-right:12%;
+
 
 }
 .button-apidogs{
@@ -143,12 +167,14 @@ body{
     cursor: pointer;
     /* margin-top: 5px; */
     width: 20%;
+    text-align: center;
 
     float: left;
     height: 20px;
 
     /* width: 100px; */
-    /* margin-left: 6%; */
+    margin-right:18%;
+
 
 }
 .button-encriptador{
@@ -156,12 +182,12 @@ body{
     cursor: pointer;
     margin-right: 8%;
     /* margin-top: -5px; */
-
+    text-align: center;
     float: right;
     height: 20px;
 
     width: 20%;
-    /* margin-right:6%; */
+    margin-right:6%;
 
 }
 
@@ -220,4 +246,56 @@ float: left;
         border-radius: 50%;
     font-size: 25px;
     
+}
+
+@media ( max-width:1800px) and (min-width:800px ){
+
+    .Proyectos-conteiner{
+        background-color: rgba(240, 248, 255, 0.339);
+    
+        /* position: block; */
+        height: 350px;
+        width: 65%;
+        float: right;
+        margin-right: 50px;
+        scroll-behavior: auto;
+    
+    }
+
+    .encriptador{
+        background-image: url("../imagenes/encriptadorr.png");
+        height: 332px;
+        width: auto;
+
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        overflow: hidden;
+        position: relative;
+    }
+    .Api-dogs{
+        background-image: url("../imagenes/pidogs.png");
+        height: 332px;
+        width: auto;
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        overflow: hidden;
+        position: relative;
+    }
+    .bicicleteria{
+        background-image: url("../imagenes/biciicleteria.png");
+        height: 332px;
+        width: auto;
+
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        overflow: hidden;
+        position: relative;
+        /* <img   height="332" width="380" position="center" class="button-proyec"> */
+    }
 }
